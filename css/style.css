@@ -294,6 +294,11 @@ footer {
 #accordio, #accordion{
 	color: var(--Color-negro);
 }
+
+button {
+	color: #fff;
+	background-color: var();
+}
 /*MEDIA QUERIES*/
 
 
