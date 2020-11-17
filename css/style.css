@@ -290,6 +290,10 @@ footer {
 #bot .section{
 	margin: -20% 0;
 }
+
+#accordio, #accordion{
+	color: var(--Color-negro);
+}
 /*MEDIA QUERIES*/
 
 
