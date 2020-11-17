@@ -22,6 +22,10 @@ body{
 	color: var(--Color-negro);
 }
 
+#icons li{
+	margin-right: -15%;
+}
+
 #hero{
 	background-image: url("../img/bg-hero.jpg");
 	background-size: cover;
@@ -36,6 +40,7 @@ body{
 	font-weight: 700;
 	color: var(--Color-negro);
 	padding-bottom: 3%;
+	font-family: 'Roboto';
 }
 
 #hero i{	
@@ -53,6 +58,10 @@ body{
 	margin-bottom: 3%;
 }
 
+#hero li{
+	padding-right: 3%;
+}
+
 #hero h2{	
 	font-size: 1em;
 	padding-right: 20%;
@@ -60,47 +69,61 @@ body{
 }
 
 .btn-primary {
-	
 	text-transform: uppercase;
-	background-color: var(--color-principal);
+	Color: var(--Color-negro);
+	background-color: #fff;
 	padding: 1% 5%;
 	border: 0;
 	font-weight: 700;
-	box-shadow: 0px 0px 10px 0px rgba(247, 81, 96, 0.50);
-	background-color: var(--color-boton-hover);
-	
+	border: 0;
+	border-radius: 50px;
 }
 
 .btn-primary:hover{
-	background-color: var(--color-boton-hover);
+	background-color: transparent !important;
+	color: var(--Color-negro);
+	border: 2px solid var(--Color-azul);
 }
 
 #home-continuar{
-	background-color: #faf9ff;
 	overflow: hidden;
+	margin-top: -5%;
 }
 
-.info-icono{
+#home-continuar .info-icono:first-child,
+#home-continuar .info-icono:last-child{
 	padding: 25% 5%;
-	
-	transition: all 0.3s ease;
+}
+
+#home-continuar .info-icono:nth-child(2){
+	padding: 30% 5%;
+}
+
+#home-continuar h3, #home-continuar p{
+	color: var(--Color-negro);
+}
+
+
+#home-continuar article:first-child,
+#home-continuar article:last-child{
+	background-color: #A1FDFF;
+	border-radius: 3%;
+}
+
+#home-continuar article:nth-child(2){
+	background-color: var(--Color-verde-precios);
+	border-radius: 3%;
+}
+
+#home-continuar h2, #home-continuar i {
+	color: var(--Color-azul);
+	font-size: 30px;
+	padding-bottom: 5%;
 }
 
 #home-continuar .info-contenido{
-	
 	overflow: hidden;
 	display: block;
-}
-
-#home-continuar img{
-	
-	margin-right: 10px;
-}
-
-.info-icono:hover{
-	box-shadow: 0 0 30px 0 #eee;
-	transform: translateY(-10px);
-	transition: all 0.3s ease;
 }
 
 .section{	
@@ -111,22 +134,18 @@ body{
 	font-size: 2em;
 	font-weight: 700;
 	margin-bottom: 3%;
-	
 }
 
 #features{
-	
 	background-color: var(--color-gris);
 	text-align: center;
 }
 
 #features .titulo{
-	
 	margin-bottom: 2%;
 }
 
 .feature i{
-	
 	width: 60px;
 	height: 60px;
 	line-height: 60px;
