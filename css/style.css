@@ -273,6 +273,10 @@ features p{
     margin-top: -5%;
 }
 
+#faq a.btn-primary{
+	background-color: var(--Color-verde);
+}
+
 footer {
 	background-color: var(--Fondo-footer);
 	color: var(--Color-letra-footer);
