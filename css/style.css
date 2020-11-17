@@ -1,52 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 :root{
 	
---color-principal: #ff5f6d;
---color-boton-hover: #f75160;
---color-naranja: #ffb270;
---color-negro: #3e3e3e;
---color-general: #999999;
---color-gris: #faf9ff;
---color-azul:#4c5462;;
+	--Color-negro: #363636;
+	--Color-verde: #3ce2ad;
+	--Color-gris: #f4f4f4;
+	--Color-verde-precios: #d4fdfe;
+	--Color-azul: #0078aa; 
+	--Fondo-footer: #1c1c1c;
+	--Color-letra-footer: #bbb;
 	
 }
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat';
 	font-size: 14px;
-	color: var(--color-general);
+	color: var(--Color-gris);
 }
 
-h1,h2,h3,h4,h5,h6{
-
-	color: var(--color-negro);
-	font-weight: 400;
+.titulo {
+	font-family: 'Roboto';
+	color: var(--Color-negro);
 }
 
 #hero{
-	background-image: url("../img/bg-hero.png");
+	background-image: url("../img/bg-hero.jpg");
 	background-size: cover;
 	height: 100%vh;
-	color: white;
-	padding-top: 3%;
+	color: var(--Color-negro);
+	padding: 6% 0 5% 7%;
 }
 
-#hero h2{
-	font-size: 4.5em;
+#hero h1{
+	font-size: 3.5em;
 	padding-top: 20%;
 	font-weight: 700;
-	color: white;
+	color: var(--Color-negro);
+	padding-bottom: 3%;
 }
 
-#hero .info{
-	
-	margin-left: -10%;
+#hero i{	
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: var(--Color-verde);
+	border: 1px solid var(--Color-verde);
+	display:block;
+	border-radius: 100%;
+	font-size: 27px;
+	color: #fff;
+	margin: auto;
+	margin-bottom: 3%;
 }
 
-#hero p{
-	
-	font-size: 1.3em;
+#hero h2{	
+	font-size: 1em;
 	padding-right: 20%;
+	padding-bottom: 15%
 }
 
 .btn-primary {
